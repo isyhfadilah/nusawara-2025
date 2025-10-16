@@ -112,7 +112,7 @@ nav {
     margin-top: 20px;
 }
 
-.btn {
+.button {
     display: inline-block;
     background-color: #d4a15f;
     color: #fff;
@@ -124,7 +124,7 @@ nav {
     cursor: pointer;
 }
 
-.btn-outline {
+.button-outline {
     display: inline-block;
     background-color: transparent;
     color: #fff;
@@ -136,7 +136,7 @@ nav {
     margin-top: 20px;
 }
 
-.btn-group {
+.button-group {
     margin-top: 20px;
     display: flex;
     gap: 20px;
@@ -236,7 +236,7 @@ nav {
     object-fit: cover;
 }
 
-.btn-plus {
+.button-plus {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -253,7 +253,7 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.btn-plus:hover {
+.button-plus:hover {
     background-color: #e0b272;
 }
 
@@ -276,7 +276,7 @@ nav {
     font-weight: 500;
 }
 
-.product-card .btn {
+.product-card .button {
     width: 100%;
     text-align: center;
     margin: 32px 0 0 0;
@@ -389,7 +389,7 @@ a {
     margin-right: 0.75rem;
 }
 
-.tag-btn {
+.tag-button {
     background: none;
     border: 1px solid #d4a15f;
     color: var(--text-light);
@@ -398,7 +398,7 @@ a {
     font-size: 0.875rem;
 }
 
-.tag-btn.active {
+.tag-button.active {
     background-color: #d4a15f;
 }
 
