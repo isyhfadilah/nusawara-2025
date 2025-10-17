@@ -72,7 +72,8 @@
                 <section class="product-info">
                     <p class="price">Rp36.000</p>
                     <h3 class="title">Anyaman Bambu “Sagara”</h3>
-                    <a href="../product/index.html" class="button">Beli sekarang</a>
+                    <button type="button" class="button" data-bs-toggle="modal"
+                        data-bs-target="#productDetailModal">Beli sekarang</button>
                 </section>
             </article>
             <article class="product-card">
@@ -86,7 +87,8 @@
                 <section class="product-info">
                     <p class="price">Rp36.000</p>
                     <h3 class="title">Anyaman Bambu “Sagara”</h3>
-                    <a href="../product/index.html" class="button">Beli sekarang</a>
+                    <button type="button" class="button" data-bs-toggle="modal"
+                        data-bs-target="#productDetailModal">Beli sekarang</button>
                 </section>
             </article>
             <article class="product-card">
@@ -100,7 +102,8 @@
                 <section class="product-info">
                     <p class="price">Rp36.000</p>
                     <h3 class="title">Anyaman Bambu “Sagara”</h3>
-                    <a href="../product/index.html" class="button">Beli sekarang</a>
+                    <button type="button" class="button" data-bs-toggle="modal"
+                        data-bs-target="#productDetailModal">Beli sekarang</button>
                 </section>
             </article>
         </div>
@@ -125,6 +128,45 @@
             </ul>
         </nav>
     </footer>
+
+    <div class="modal fade" id="productDetailModal" tabindex="-1" aria-labelledby="productDetailModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productDetailModalLabel">Detail Produk</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body mt-4 mb-4">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="../../images/dummy.png" alt="Anyaman Bambu Sagara" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="detail-info-typo d-flex flex-column gap-2">
+                                    <h4 class="fw-semibold">Anyaman Bambu “Sagara”</h4>
+                                    <h2 class="fw-bold">Rp36.000</h2>
+                                    <p class="description">
+                                        Anyaman Bambu “Sagara” dibuat oleh pengrajin lokal dengan teknik tradisional
+                                        yang diwariskan
+                                        turun-temurun. Selain kokoh dan serbaguna, karya ini menyimpan cerita tentang
+                                        kesabaran,
+                                        ketekunan, dan harmoni dengan alam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="button">Tambah keranjang</a>
+                    <a href="#" class="button button-outline">Beli sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

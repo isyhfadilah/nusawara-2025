@@ -586,6 +586,10 @@ section.checkout-summary {
     justify-content: flex-end;
 }
 
+.modal-content {
+    background-color: #0E1D13;
+}
+
 .cta {
     display: flex;
     justify-content: space-between;
